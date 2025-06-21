@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      font-family: "Gabarito", sans-serif;
+}
+/* navebar start */
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;  
+    text-align: center;
+  
+}
+.navbar__s1__tittle{
+    color: #9f47d3;
+
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+   gap: 10px;
+}
+.navbar__s2 input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+
+ 
+}
+.navbar__s2 input:focus{
+    outline: none;
+
+}
+.navbar__s3{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+
+}
+/* navbar end */
+/* categories start */
+.categories{
+    font-family: ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: solid black 1px;
+}
+.categories p{
+    background-color: #9f47d3;
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+/* categories end */
+
+ /* image start */
+
+.sale-image img{
+width: 100%;
+margin-top: 20px;
+
+/* image end */
+
+  /* recommended start */
+
+}
+.recommended{
+    padding: 10px;
+   
+}
+.recommended__container{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+     
+}
+.course-card{
+    width: 200px;
+  padding: 30px;
+  
+  
+
+}
+.course-card img{
+    width: 100%;
+}
+/* recemmended end */
+
+/* topic start */
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+
+   
+}
+.topics__container p{
+    border: solid gray 1px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+   
+
+}
+/* topic end */
+
+/* popular start */
+.popular{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.popular__subtittle{
+    margin-top: 15px;
+}
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+/* popular end */
+
+/* footer start */
+.footer{
+    background-color: #2a2b3f;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer__s1{
+    color:#ffffff;
+    border-bottom: solid white 1px;
+    padding: 10px;
+}
+.footer__desc-tittle{
+    justify-content: space-between;
+}
+.footer__desc{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    
+    
+}
+.footer__desc h1{
+    color:#ffffff ;
+    margin-top: 10px;
+  
+}
+.footer__desc p{
+
+    color: #ffffff;
+    padding: 10px;
+    
+}
+.footer__last{
+    text-align: end;
+    color: #ffffff;
+}
+/* footer end */
+
+/* section__start */
+.section__head{
+    background-color: #ffffff;
+
+}
+
